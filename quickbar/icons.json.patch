@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/items/patman:freecheese",
+    "value" : {
+      "label" : "free cheese",
+      "icon" : "/quickbar/pat/cheese.png",
+			"blockAutoDismiss" : true,
+      "action" : [ "exec", "/quickbar/pat/cheese.lua", "cheese" ]
+    }
+  }
+]
